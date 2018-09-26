@@ -1,1 +1,20 @@
-%h1 hello word
+#banner
+  .banner_content
+    %h1 File Cabinet
+    %p Your's life work. Organized, always.
+    %button= link_to "Enter", new_user_registration_path
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Organized
+        %p The above code specifies that for the model User only allow the attribute username to be touched.
+        If you try to update or create a user record in the user table with any other attribute e.g. email,
+        you would get an error because the email attribute has not been 'permitted'. This is what is meant by
+        whitelisting. You will only see the above code in create or update controller methods, or any other method
+        that amends the data in some way. (An exception, of course, is deleting a record).
+#bottom_cta
+  .wrapper
+    %h2 Go Ahead!
+    %br
+    %button= link_to "Join Now", new_user_registration_path
