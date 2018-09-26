@@ -43,7 +43,7 @@ body {
 button, .button {
   border: none;
   outline: none;
-  background: $green;
+  background: black;
   padding: 1rem 3.5rem;
   border-radius: 0.1rem;
   a {
@@ -59,7 +59,7 @@ button, .button {
 }
 
 a {
-  color: $green;
+  color: white;
   text-decoration: none;
   &:hover {
     color: $dark_gray;
